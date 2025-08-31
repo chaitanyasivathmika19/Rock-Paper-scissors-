@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h2>Rock-Paper-Scissors Game</h2>
+       <div class="controls">
+    <label for="attempts">Attempts: </label>
+<select onchange="setAttempts(this.value)">
+  <option value="3">3 Attempts</option>
+  <option value="5">5 Attempts</option>
+  <option value="10">10 Attempts</option>
+</select>
+
+    <label for="theme">Theme: </label>
+    <select id="theme">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+
+    <button id="reset-btn">Reset Game</button>
+</div>
+
+    <p >User Choice: <span id="user-choice"></span></p>
+<p>Computer Choice: <span id="comp-choice"></span></p>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.jpg"/>
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.jpg"/>
+        </div>
+        <div class="choice" id="scissors">
+            <img src="scissors.jpg"/>
+        </div>
+    </div>
+    <label id="attempts-left">Attempts Left: 0</label>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <div id="msg">
+            Play your Move
+        </div>
+    </div>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
