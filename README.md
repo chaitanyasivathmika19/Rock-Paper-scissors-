@@ -1,4 +1,10 @@
 # 🎮 Rock-Paper-Scissors Game
+  
+## 🚀 Live Demo
+
+▶️ Play the game here: [**Rock-Paper-Scissors Live**](https://chaitanyasivathmika19.github.io/Rock-Paper-scissors-/)  
+
+
 
 A simple and interactive **Rock-Paper-Scissors** game built using **HTML, CSS, and JavaScript**.  
 Play against the computer with multiple game modes, themes, and live scoring!
@@ -15,16 +21,17 @@ Play against the computer with multiple game modes, themes, and live scoring!
 
 ---
 
-/ (root)
-│── index.html # 🏗️ Main HTML structure
-│── style.css # 🎨 Styles (light & dark themes)
-│── app.js # 🧠 Game logic and interactivity
-│── rock.jpg # ✊ Rock image
-│── paper.jpg # 📄 Paper image
-│── scissors.jpg # ✂️ Scissors image
-│
-│── README.md # 📘 Documentation
-│── .gitignore # 🚫 Git ignore file
+/ (root)  
+│── index.html     # 🏗️ Main HTML structure  
+│── style.css      # 🎨 Styles (light & dark themes)  
+│── app.js         # 🧠 Game logic and interactivity  
+│── rock.jpg       # ✊ Rock image  
+│── paper.jpg      # 📄 Paper image  
+│── scissors.jpg   # ✂️ Scissors image  
+│  
+│── README.md      # 📘 Documentation  
+│── .gitignore     # 🚫 Git ignore file  
+
 ---
 
 ## 🚀 How to Run
@@ -99,24 +106,12 @@ Here’s how you can update your 📸 Preview section:
 ## 🛠️ Technologies Used
 - **HTML5** – Structure  
 - **CSS3** – Styling (themes, layout)  
-- **JavaScript (ES6)** – Game logic  
+- **JavaScript (ES6)** – Game logic
+
 
 ---
 
 ## 🏅 Author
 Made with ❤️ by Yalamandala Chaitanya Sivathmika
 
-
-
----
-
-## 🛠️ Technologies Used
-- **HTML5** – Structure  
-- **CSS3** – Styling (themes, layout)  
-- **JavaScript (ES6)** – Game logic  
-
----
-
-## 🏅 Author
-Made with ❤️ by Yalamandala Chaitanya Sivathmika
 
